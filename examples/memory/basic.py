@@ -23,7 +23,7 @@ from anthropic.types.beta import (
 )
 
 MEMORY_SYSTEM_PROMPT = """- ***DO NOT just store the conversation history**
-        - No need to mention your memory tool or what you are writting in it to the user, unless they ask
+        - No need to mention your memory tool or what you are writing in it to the user, unless they ask
         - Store facts about the user and their preferences
         - Before responding, check memory to adjust technical depth and response style appropriately
         - Keep memories up-to-date - remove outdated info, add new details as you learn them
